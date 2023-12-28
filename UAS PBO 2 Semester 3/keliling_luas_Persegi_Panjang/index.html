@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aplikasi Penghitung Luas dan Keliling Persegi Panjang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="pp.jpg">
+    <h1>APLIKASI PENGHITUNG LUAS & Keliling Persegi Panjang</h1>
+    <hr class="border">
+    <div class="container">
+        <h3>APLIKASI PENGHITUNG LUAS & KELILING :</h3>
+        <p>Masukkan Panjang :</p>
+        <input type="text" id="panjang" placeholder="Masukkan Panjang">
+        <p>Masukkan Lebar :</p>
+        <input type="text" id="lebar" placeholder="Masukkan Lebar">
+        <button onclick="luaspp()">Hitung Luas</button>
+        <button onclick="kelilingpp()">Hitung Keliling</button>
+        <button onclick="reset()">Reset</button>
+        
+        <div class="box">
+        <p>Hasil Luas :</p>
+        <div id="hasilluas">-</div>
+        <p>Hasil Keliling :</p>
+        <div id="hasilkeliling">-</div>
+        </div>
+    </div>
+<script src="script.js"></script>
+
+</body>
+</html>

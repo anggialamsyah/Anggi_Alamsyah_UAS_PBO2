@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aplikasi Penghitung Luas dan Keliling Lingkaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="l.jpg">
+    <h1>APLIKASI PENGHITUNG LUAS & Keliling LINGKARAN</h1>
+    <hr class="border">
+    <div class="container">
+        <h3>APLIKASI PENGHITUNG LUAS & KELILING :</h3>
+        <p>Masukkan Jari-jari :</p>
+        <input type="text" id="jarijari" placeholder="Masukkan Jari-jari">
+        <button onclick="luaslingkaran()">Hitung Luas</button>
+        <button onclick="kelilinglingkaran()">Hitung Keliling</button>
+        <button onclick="reset()">Reset</button>
+        
+        <div class="box">
+        <p>Hasil Luas     :</p>
+        <div id="hasilluas">-</div>
+        <p>Hasil Keliling :</p>
+        <div id="hasilkeliling">-</div>
+        </div>
+    </div>
+<script src="script.js"></script>
+
+</body>
+</html>
